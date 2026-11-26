@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Daniel | Developer Portfolio</title>
+    <title>Daniel Mulamba Matamba | Developer Portfolio</title>
+    <meta name="description" content="The portfolio of Daniel Mulamba Matamba, a Computer Science student interested in software development, web development, databases and cybersecurity.">
+    <meta name="theme-color" content="#07090b">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +41,11 @@
             <a href="#contact">CONTACT</a>
         </nav>
 
-        <button class="menu-toggle" id="menu-toggle">
+        <button class="menu-toggle" id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="navbar"
+                aria-expanded="false">
             ☰
         </button>
 
@@ -377,82 +383,83 @@ public class Developer {
     <section class="section projects" id="projects">
 
         <div class="section-title">
-
             <p>03 // SELECTED OPERATIONS</p>
-
             <h2>MY <span>PROJECTS</span></h2>
-
+            <p class="section-intro">A selection of projects I've built while learning, experimenting and developing practical skills.</p>
         </div>
-
 
         <div class="projects-container">
 
-            <div class="project-card">
+            <article class="project-card">
+                <div class="project-number">PROJECT_001 // JAVA</div>
+                <div class="project-image"><span>01</span></div>
+                <h3>Java Report Card Generator</h3>
+                <p>A Java project focused on working with student information, marks and basic result calculations.</p>
+                <div class="tags">
+                    <span>Java</span><span>OOP</span><span>Logic</span>
+                </div>
+                <p class="project-status">Academic / learning project</p>
+            </article>
 
-                <div class="project-number">PROJECT_001</div>
-
-                <div class="project-image">01</div>
-
-                <h3>Java Report Card Generator </h3>
+            <article class="project-card">
+                <div class="project-number">PROJECT_002 // JAVA</div>
+                <div class="project-image red-bg"><span>02</span></div>
                 <h3>Java Calculator</h3>
+                <p>A beginner-friendly calculator project practising methods, parameters, return values and arithmetic operations.</p>
+                <div class="tags">
+                    <span>Java</span><span>Methods</span><span>OOP</span>
+                </div>
+                <p class="project-status">Academic / learning project</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-number">PROJECT_003 // JAVA</div>
+                <div class="project-image blue-bg"><span>03</span></div>
                 <h3>Java ATM</h3>
-
-                <p>
-                     Simple Projects developed using
-                    Java programming concepts.
-                </p>
-
+                <p>A practice application exploring basic ATM-style operations and program logic.</p>
                 <div class="tags">
-                    <span>Java</span>
-                    <span>OOP</span>
+                    <span>Java</span><span>OOP</span>
                 </div>
+                <p class="project-status">Academic / learning project</p>
+            </article>
 
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-number">PROJECT_002</div>
-
-                <div class="project-image red-bg">02</div>
-
+            <article class="project-card">
+                <div class="project-number">PROJECT_004 // WEB</div>
+                <div class="project-image"><span>04</span></div>
                 <h3>Personal Portfolio</h3>
-                <h3>Sangbe Foundation  </h3>
-                <h3>& Many other sites </h3>
-                <p>
-                    A personal website showcasing my
-                    background, skills and projects. Including works I've done for people as assignements.                </p>
-
+                <p>My personal developer website, presenting my background, skills, projects and contact information.</p>
                 <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
                 </div>
+                <div class="project-links">
+                    <a href="https://matamba202523660-cmd.github.io/MY-PORTFOLIO/" target="_blank" rel="noopener noreferrer">Live website ↗</a>
+                    <a href="https://github.com/matamba202523660-cmd/MY-PORTFOLIO" target="_blank" rel="noopener noreferrer">Source code ↗</a>
+                </div>
+            </article>
 
-            </div>
+            <article class="project-card">
+                <div class="project-number">PROJECT_005 // WEB</div>
+                <div class="project-image red-bg"><span>05</span></div>
+                <h3>Sangbe Foundation Website</h3>
+                <p>A website project included in my web design and development experience. Add the public project link when it is available.</p>
+                <div class="tags">
+                    <span>HTML</span><span>CSS</span><span>Web Design</span>
+                </div>
+                <p class="project-status">Project showcase</p>
+            </article>
 
-
-            <div class="project-card">
-
-                <div class="project-number">PROJECT_003</div>
-
-                <div class="project-image blue-bg">03</div>
-
+            <article class="project-card">
+                <div class="project-number">PROJECT_006 // DATABASE</div>
+                <div class="project-image blue-bg"><span>06</span></div>
                 <h3>Database System</h3>
-
-                <p>
-                    A database project demonstrating
-                    data organisation and SQL concepts.
-                </p>
-
+                <p>A database project demonstrating data organization, relationships and SQL concepts.</p>
                 <div class="tags">
-                    <span>SQL</span>
-                    <span>Database</span>
+                    <span>SQL</span><span>Database</span><span>ERD</span>
                 </div>
-
-            </div>
+                <p class="project-status">Academic / learning project</p>
+            </article>
 
         </div>
-
     </section>
 
 
@@ -569,7 +576,7 @@ public class Developer {
 
 
         <p>
-            You Have an idea, opportunity or project?
+            Have an idea, opportunity or project?
             Let's connect and create something meaningful.
         </p>
 
